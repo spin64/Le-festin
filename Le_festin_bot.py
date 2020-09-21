@@ -1,4 +1,4 @@
-#imports shit
+#imports stuff
 import discord
 import random
 from discord.ext import commands
