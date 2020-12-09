@@ -84,7 +84,8 @@ async def spongebob(ctx):
                  'https://youtu.be/CN1OV9fh3uI',
                  'https://youtu.be/gSv4WiQ_gOM',
                  'https://youtu.be/pgiyA91A-cA',
-                 'https://youtu.be/9_xbv_Bkd9s']
+                 'https://youtu.be/9_xbv_Bkd9s',
+                 'https://youtu.be/yk7IDVzLiQo']
     await ctx.send(random.choice(spongebob))
 
 #join/leave
