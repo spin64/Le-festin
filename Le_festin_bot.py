@@ -4,10 +4,10 @@ import random
 from discord.ext import commands, tasks
 from discord.voice_client import VoiceClient
 
+
+
 #prefix for channels
 client = commands.Bot(command_prefix = '.')
-
-TOKEN = ('Token')
 
 #prefix for channels
 client = commands.Bot(command_prefix = '.')
@@ -130,5 +130,5 @@ async def canada(ctx):
     if not voice_client.is_playing():
         voice_client.play(audio_source, after=None)
 
+client.run(open('key.txt', 'r').readline())
 
-client.run(TOKEN)
